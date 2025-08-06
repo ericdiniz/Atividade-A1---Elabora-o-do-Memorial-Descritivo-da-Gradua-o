@@ -1,1 +1,5 @@
 Atividade A1 - Elaboração do Memorial Descritivo da Graduação
+
+O memorial descritivo da graduação é um documento no qual o aluno conta suas atividades, aprendizados e conquistas durante graduação. É como um currículo acadêmico, mas feito de forma textual em vez de tópicos. Trata-se de um documento fundamental ao processo de orientação e de análise do contexto do aluno durante o Trabalho de Conclusão de Curso (TCC). Nesta unidade curricular, ele também é usado como instrumento de nivelamento em escrita acadêmica.
+
+Os objetivos diretos desta atividade são: 1) entender o contexto acadêmico do aluno; 2) verificar a experiência, habilidades e interesses que o aluno tem em relação ao conteúdo da Engenharia de Software; 3) compreender as perspectivas futuras do aluno à luz da conclusão da graduação em Engenharia de Software. O objetivo indireto é avaliar a habilidade de escrita acadêmica em termos de coerência, coesão, correção gramatical, capacidade de organização e de articulação de ideias.
