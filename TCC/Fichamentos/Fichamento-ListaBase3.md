@@ -3,18 +3,15 @@
 Veloso, Victor, and Andre Hora. "Characterizing high-quality test methods: a first empirical study." Proceedings of the 19th International Conference on Mining Software Repositories. 2022. doi: [10.1145/3524842.3528464](https://doi.org/10.1145/3524842.3528464)
 
 ## 1. Fichamento de Conteúdo
-
-O artigo busca caracterizar métodos de teste de alta qualidade em projetos de software open source. Por meio de um estudo empírico com mineração de repositórios, os autores identificaram padrões que distinguem testes bem escritos de testes frágeis ou redundantes. Foram analisados milhares de métodos de teste, avaliando critérios como legibilidade, manutenção e confiabilidade. Os resultados mostraram que métodos de alta qualidade tendem a ser mais curtos, focados em uma responsabilidade e com uso adequado de asserts. O estudo contribui para orientar desenvolvedores sobre boas práticas de escrita de testes, fornecendo evidências empíricas para o que antes era tratado como conhecimento tácito.
+O estudo investiga **o que caracteriza métodos de teste de alta qualidade** em projetos OSS. Utilizando **mineração de repositórios**, os autores analisam um grande conjunto de métodos quanto a tamanho, foco, uso de asserts, nomeação e sinais de **test smells**. Evidências apontam que testes **concisos e coesos**, com uma **responsabilidade clara**, tendem a ser mais **manuteníveis** e menos propensos a falhas. Padrões problemáticos incluem métodos inflados, múltiplas asserções desconexas e dependências implícitas. O trabalho propõe **heurísticas e recomendações** para escrita de testes, transformando intuições comuns em **evidência empírica**. As conclusões apoiam a criação de **linters/checkers** e guias internos, bem como ações de refatoração preventiva. Limitações incluem viés de amostra e proxies de qualidade a partir de dados históricos. Ainda assim, a pesquisa fornece **base prática** para equipes melhorarem a qualidade da suíte.
 
 ## 2. Fichamento Bibliográfico
+- **High-quality test methods** — curtos, focados e legíveis; favorecem manutenção e confiabilidade.  
+- **Test smells** — sinais de desenho ruim em testes (ex.: asserts excessivos, dependências ocultas).  
+- **Mineração de repositórios (MSR)** — coleta/estudo de dados históricos para inferir qualidade.  
+- **Implicação** — heurísticas podem embasar ferramentas e políticas de revisão.
 
-* **High-quality test methods** — métodos de teste curtos, claros e de fácil manutenção.
-* **Test smells** — padrões problemáticos em testes, como redundância ou asserts excessivos.
-* Método: mineração de repositórios + análise estatística.
-* Ferramenta: dataset público de projetos open source do GitHub.
-
-## 3. Fichamento de Citações
-
-* _"High-quality test methods are concise, focused, and easy to maintain."_
-* _"Empirical evidence shows that test methods with fewer responsibilities are less prone to defects."_
-* _"Test smells negatively impact both maintainability and reliability of test suites."_
+## 3. Fichamento de Citações *(copie do PDF as frases exatas)*  
+- “[citar definição/critério central de ‘test method quality’]”  
+- “[citar evidência de associação entre concisão/foco e qualidade]”  
+- “[citar recomendação prática proposta]”  
