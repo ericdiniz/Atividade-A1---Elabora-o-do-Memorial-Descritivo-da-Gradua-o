@@ -6,10 +6,10 @@ Veloso, Victor, and Andre Hora. "Characterizing high-quality test methods: a fir
 O estudo investiga o que caracteriza métodos de teste de alta qualidade em projetos OSS (Open Source Software). Utilizando mineração de repositórios, os autores analisam um grande conjunto de métodos quanto a tamanho, foco, uso de asserts, nomeação e sinais de test smells. Evidências apontam que testes concisos e coesos, com uma responsabilidade clara, tendem a ser mais manuteníveis e menos propensos a falhas. Padrões problemáticos incluem métodos inflados, múltiplas asserções desconexas e dependências implícitas. O trabalho propõe heurísticas e recomendações para escrita de testes, transformando intuições comuns em evidência empírica. As conclusões apoiam a criação de linters/checkers e guias internos, bem como ações de refatoração preventiva. Limitações incluem viés de amostra e proxies de qualidade a partir de dados históricos. Ainda assim, a pesquisa fornece base prática para equipes melhorarem a qualidade da suíte.
 
 ## 2. Fichamento Bibliográfico
-- **High-quality test methods** — curtos, focados e legíveis; favorecem manutenção e confiabilidade.  
-- **Test smells** — sinais de desenho ruim em testes (ex.: asserts excessivos, dependências ocultas).  
-- **Mineração de repositórios (MSR)** — coleta/estudo de dados históricos para inferir qualidade.  
-- **Implicação** — heurísticas podem embasar ferramentas e políticas de revisão.
+- High-quality test methods — curtos, focados e legíveis; favorecem manutenção e confiabilidade.  
+- Test smells — sinais de desenho ruim em testes (ex.: asserts excessivos, dependências ocultas).  
+- Mineração de repositórios (MSR) — coleta/estudo de dados históricos para inferir qualidade.  
+- Implicação — heurísticas podem embasar ferramentas e políticas de revisão.
 
 ## 3. Fichamento de Citações *(copie do PDF as frases exatas)*  
 - “[citar definição/critério central de ‘test method quality’]”  

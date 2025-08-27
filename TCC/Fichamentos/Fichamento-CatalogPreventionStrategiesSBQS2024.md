@@ -8,11 +8,11 @@ O artigo propõe um catálogo de estratégias de prevenção de dívida técnica
 
 ## 2. Fichamento Bibliográfico
 
-* *Test technical debt* — conceito que descreve dívidas acumuladas devido à má concepção, falta de manutenção ou práticas inadequadas na escrita de testes.
-* *Prevenção de dívida técnica* — ações proativas como atualização contínua, revisões automatizadas e métricas de monitoramento.
-* *Revisão sistemática da literatura* — método usado para identificar, classificar e consolidar estratégias pré-existentes na área.
-* *Validação com especialistas* — etapa prática de confronto do catálogo com profissionais para garantir aplicabilidade.
-* *Catálogo estruturado* — ferramenta final do estudo, que serve como guia prático para desenvolvedores e equipes.
+* Test technical debt — conceito que descreve dívidas acumuladas devido à má concepção, falta de manutenção ou práticas inadequadas na escrita de testes.
+* Prevenção de dívida técnica — ações proativas como atualização contínua, revisões automatizadas e métricas de monitoramento.
+* Revisão sistemática da literatura — método usado para identificar, classificar e consolidar estratégias pré-existentes na área.
+* Validação com especialistas — etapa prática de confronto do catálogo com profissionais para garantir aplicabilidade.
+* Catálogo estruturado — ferramenta final do estudo, que serve como guia prático para desenvolvedores e equipes.
 
 ## 3. Fichamento de Citações
 
