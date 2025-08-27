@@ -9,9 +9,9 @@ Este relato de experiência apresenta a aplicação de um catálogo de estratég
 ## 2. Fichamento Bibliográfico
 
 * Test debt — dívida técnica relacionada a testes, causada por práticas inadequadas de escrita/manutenção de testes.
-* Estratégias adotadas: revisões de código voltadas para testes, métricas de cobertura e manutenção contínua.
+* Estratégias adotadas — revisões de código voltadas para testes, métricas de cobertura e manutenção contínua.
 * Fintech — software financeiro com alto nível de criticidade e demanda por confiabilidade.
-* Método: relato de experiência qualitativo com análise de indicadores internos.
+* Método — relato de experiência qualitativo com análise de indicadores internos.
 
 ## 3. Fichamento de Citações
 
