@@ -4,7 +4,7 @@
 
 `No início do fchamento, você deve incluir, o título do Artigo sobre o qual o fichamento está sendo feito, exemplo:`
 
-# Volunteers' Engagement in Human Computation for Astronomy Projects
+## Volunteers' Engagement in Human Computation for Astronomy Projects
 
 `Aqui deve-se colocar uma linha com a referência completa do artigo, exemplo:`
 
