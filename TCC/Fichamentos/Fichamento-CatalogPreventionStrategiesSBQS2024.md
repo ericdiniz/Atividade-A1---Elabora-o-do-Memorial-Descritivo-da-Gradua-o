@@ -16,8 +16,8 @@ O artigo propõe um catálogo de estratégias de prevenção de dívida técnica
 
 ## 3. Fichamento de Citações
 
-* "The catalog consolidates both academic and industry knowledge into a practical guide for preventing test debt."
-* "Continuous maintenance of test suites is crucial for preventing technical debt."
-* "Experts agreed that prevention strategies must be part of the development workflow, not an afterthought."
-* "Test debt, if left unmanaged, compromises not only software maintainability but also its long-term reliability."
-* "The proposed catalog bridges the gap between theoretical studies and industrial practices in testing."
+* _"The catalog consolidates both academic and industry knowledge into a practical guide for preventing test debt."_
+* _"Continuous maintenance of test suites is crucial for preventing technical debt."_
+* _"Experts agreed that prevention strategies must be part of the development workflow, not an afterthought."_
+* _"Test debt, if left unmanaged, compromises not only software maintainability but also its long-term reliability."_
+* _"The proposed catalog bridges the gap between theoretical studies and industrial practices in testing."_

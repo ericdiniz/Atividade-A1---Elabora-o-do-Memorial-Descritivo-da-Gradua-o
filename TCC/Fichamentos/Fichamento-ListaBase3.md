@@ -15,8 +15,8 @@ O estudo investiga o que caracteriza métodos de teste de alta qualidade em proj
 
 ## 3. Fichamento de Citações
 
-- “We find no major differences between high-quality and low-quality test methods in terms of size, number of asserts, and modifications.” (p. 1)
-- “High-quality test methods are less affected by critical test smells.” (p. 1)
-- “Low-quality test methods are over-concentrated on Sleepy Test, General Fixture, and Unknown Test.” (p. 6)
-- “Practitioners in charge of maintaining test suites should be aware that the presence of some test smells is associated with the test suite’s ability in catching real bugs.” (p. 7)
-- “We propose an empirical study to assess the quality of test methods by relying on mutation testing at the method level.” (p. 1)
+- _“We find no major differences between high-quality and low-quality test methods in terms of size, number of asserts, and modifications.” (p. 1)_
+- _“High-quality test methods are less affected by critical test smells.” (p. 1)_
+- _“Low-quality test methods are over-concentrated on Sleepy Test, General Fixture, and Unknown Test.” (p. 6)_
+- _“Practitioners in charge of maintaining test suites should be aware that the presence of some test smells is associated with the test suite’s ability in catching real bugs.” (p. 7)_
+- _“We propose an empirical study to assess the quality of test methods by relying on mutation testing at the method level.” (p. 1)_
