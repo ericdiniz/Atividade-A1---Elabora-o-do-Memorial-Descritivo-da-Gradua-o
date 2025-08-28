@@ -1,22 +1,21 @@
 # Characterizing High-Quality Test Methods: A First Empirical Study
 
-Veloso, Victor, and Andre Hora. "Characterizing high-quality test methods: a first empirical study." Proceedings of the 19th International Conference on Mining Software Repositories. 2022. doi: [10.1145/3524842.3528464](https://doi.org/10.1145/3524842.3528464)
+VELOSO, Victor; HORA, Andre. Characterizing high-quality test methods: a first empirical study. In: Proceedings of the 19th International Conference on Mining Software Repositories. 2022. p. 265-269.
 
 ## 1. Fichamento de Conteúdo
-
-O estudo investiga o que caracteriza métodos de teste de alta qualidade em projetos OSS (Open Source Software). Utilizando mineração de repositórios, os autores analisam um grande conjunto de métodos quanto a tamanho, foco, uso de asserts, nomeação e sinais de test smells. Evidências apontam que testes concisos e coesos, com uma responsabilidade clara, tendem a ser mais manuteníveis e menos propensos a falhas. Padrões problemáticos incluem métodos inflados, múltiplas asserções desconexas e dependências implícitas. O trabalho propõe heurísticas e recomendações para escrita de testes, transformando intuições comuns em evidência empírica. As conclusões apoiam a criação de linters/checkers e guias internos, bem como ações de refatoração preventiva. Limitações incluem viés de amostra e proxies de qualidade a partir de dados históricos. Ainda assim, a pesquisa fornece base prática para equipes melhorarem a qualidade da suíte.
+A prática de testes de software é fundamental no desenvolvimento, e a qualidade dos testes é frequentemente avaliada por cobertura de código ou análise de mutação. No entanto, essas métricas geralmente focam na suíte de testes como um todo, o que pode mascarar a qualidade de métodos de teste individuais. O artigo aborda essa limitação propondo um estudo empírico para avaliar a qualidade de métodos de teste usando a técnica de *mutation testing* aplicada no nível do método. Os autores estenderam uma ferramenta de *mutation testing* para analisar mais de 18.000 métodos de teste de cinco projetos *open-source* em Java. A metodologia buscou identificar características de código e evolução, bem como a prevalência de *test smells* em métodos de alta e baixa qualidade. Os resultados indicaram que **não há grandes diferenças** entre métodos de teste de alta e baixa qualidade em termos de tamanho, número de *asserts* e modificações. Contudo, foi notado que os métodos de alta qualidade são **menos impactados por *test smells* considerados críticos**. Isso sugere que, embora métricas estáticas possam não ser um diferenciador claro, a presença de certos *test smells* é um indicativo mais forte da capacidade de um teste em detectar *bugs*.
 
 ## 2. Fichamento Bibliográfico
-
-- High-quality test methods — curtos, focados e legíveis; favorecem manutenção e confiabilidade.
-- Test smells — sinais de desenho ruim em testes (ex.: asserts excessivos, dependências ocultas).
-- Mineração de repositórios (MSR) — coleta/estudo de dados históricos para inferir qualidade.
-- Implicação — heurísticas podem embasar ferramentas e políticas de revisão.
+*   **Mutation Testing:** Uma técnica empregada para avaliar a eficácia dos testes, onde falhas artificiais (mutações) são inseridas no código para verificar se os testes existentes conseguem detectá-las. Se os testes falham em "matar" essas mutações, há uma indicação de que eles podem não ser eficazes na identificação de *bugs* reais.
+*   **Mutation Score:** É uma métrica que representa a proporção de mutantes detectados (mortos) em relação ao número total de mutantes gerados. Um mutante é considerado "morto" quando pelo menos um método de teste falha ao ser executado nele, seja por uma falha de asserção, um erro ou um *time-out*.
+*   **Test Method Mutation:** Uma abordagem focada em avaliar a qualidade de métodos de teste individualmente, ao invés da suíte de testes completa. Um *mutation score* é calculado para cada método de teste, baseado na proporção de mutantes mortos por aquele teste em particular sobre o total de mutantes que ele cobre. Essa granularidade mais fina ajuda a identificar a qualidade de testes específicos que podem ser ofuscados por um *score* geral elevado.
+*   **Test Smells:** Descrevem escolhas de design subótimas feitas durante o desenvolvimento de testes, que podem prejudicar a compreensibilidade e a manutenibilidade das suítes de teste. O estudo identifica alguns *test smells* como críticos (e.g., Sleepy Tests, General Fixture, Unknown Test), que se mostram mais prevalentes em métodos de baixa qualidade.
+*   **Métodos de Teste de Alta e Baixa Qualidade:** São categorizados no estudo com base em seus *mutation scores* individuais, selecionando os 100 melhores e os 100 piores. A pesquisa busca entender as características que os diferenciam, concluindo que a ausência de *test smells* críticos é um marcador mais relevante para a alta qualidade do que métricas de código ou evolutivas.
 
 ## 3. Fichamento de Citações
-
-- _“We find no major differences between high-quality and low-quality test methods in terms of size, number of asserts, and modifications.” (p. 1)_
-- _“High-quality test methods are less affected by critical test smells.” (p. 1)_
-- _“Low-quality test methods are over-concentrated on Sleepy Test, General Fixture, and Unknown Test.” (p. 6)_
-- _“Practitioners in charge of maintaining test suites should be aware that the presence of some test smells is associated with the test suite’s ability in catching real bugs.” (p. 7)_
-- _“We propose an empirical study to assess the quality of test methods by relying on mutation testing at the method level.” (p. 1)_
+*   "To assess the quality of a test suite, one can rely on mutation testing, which computes whether the overall test cases are adequately exercising the covered lines. However, this high level of granularity may overshadow the quality of individual test methods."
+*   "This technique injects mutations (artificial faults) into the code and checks if tests can detect (or “kill”, in the mutation testing terminology) these mutations. The rationale is that if it fails to detect such mutations, it will miss real bugs."
+*   "Overall, we find no major differences between high and low-quality test methods in terms of size, number of asserts, and modifications."
+*   "Thus, the 100% mutation score neglects quality difference between the test methods, from the mutation analysis perspective."
+*   "A mutant is “killed” when at least one of the test results differs between both sets, i.e., when at least one of the test methods run on the mutants failed, meaning they properly detected the code mutations."
+*   "In contrast, high-quality test methods are less affected by critical test smells."
