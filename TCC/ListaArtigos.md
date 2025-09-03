@@ -37,3 +37,5 @@
 * Feio, Clarisse, et al. "An empirical study of devsecops focused on continuous security testing." 2024 IEEE European Symposium on Security and Privacy Workshops (EuroS&PW). IEEE, 2024. doi: [10.1109/EuroSPW65475.2024.00067](https://doi.org/10.1109/EuroSPW65475.2024.00067)
 
 * Silva, Levi Almeida, and Ismayle Sousa Santos. "A Catalog of Prevention Strategies for Test Technical Debt." Proceedings of the XXIII Brazilian Symposium on Software Quality. 2024. doi: [10.1109/SBQS60702.2024.00034](https://doi.org/10.1109/SBQS60702.2024.00034)
+
+* Valenzuela-Toledo, Pablo, et al. "The hidden costs of automation: An empirical study on GitHub Actions workflow maintenance." 2024 IEEE International Conference on Source Code Analysis and Manipulation (SCAM). IEEE, 2024. doi: [10.1109/SCAM60771.2024.00034](https://doi.org/10.1109/SCAM60771.2024.00034)
