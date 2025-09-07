@@ -39,3 +39,7 @@
 * Silva, Levi Almeida, and Ismayle Sousa Santos. "A Catalog of Prevention Strategies for Test Technical Debt." Proceedings of the XXIII Brazilian Symposium on Software Quality. 2024. doi: [10.1109/SBQS60702.2024.00034](https://doi.org/10.1109/SBQS60702.2024.00034)
 
 * Valenzuela-Toledo, Pablo, et al. "The hidden costs of automation: An empirical study on GitHub Actions workflow maintenance." 2024 IEEE International Conference on Source Code Analysis and Manipulation (SCAM). IEEE, 2024. doi: [10.1109/SCAM60771.2024.00034](https://doi.org/10.1109/SCAM60771.2024.00034)
+
+* Shah, Vaidehi; Yadav, Pranay. "The Future of Software Testing Automation: Innovations, Challenges, and Emerging Alternatives." In: 2025 3rd International Conference on Inventive Computing and Informatics (ICICI). IEEE, 2025. p. 1588-1593.
+
+* Thokala, Vashudhar Sai; Pillai, Sumit; Gupta, Sandeep. "Testing and Optimizing Web Applications with Continuous Integration/Continuous Deployment in Cloud Environments." In: 2025 IEEE International Conference on Emerging Technologies and Applications (MPSec ICETA). IEEE, 2025. p. 1-6.
